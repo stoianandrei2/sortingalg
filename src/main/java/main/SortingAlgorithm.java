@@ -16,7 +16,7 @@ public interface SortingAlgorithm {
 
     }
 
-    public default long testTime(List<Integer> list) {
+    public default Long testTime(List<Integer> list) {
         Integer[] array;
         array = (Integer[]) list.toArray();
         return testTime(array);

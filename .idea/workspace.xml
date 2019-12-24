@@ -15,6 +15,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VQh34LWkPot2YDFTbQiaha5FI0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -142,10 +145,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="95" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1577197538148" />
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1577191032462">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1577198785402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577191032462" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577198785402" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1577198627750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577198627750" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
