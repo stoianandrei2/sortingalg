@@ -30,7 +30,7 @@ public interface SortingAlgorithm {
         sortIntegerArray(param);
         t2 = System.currentTimeMillis();
         Long diff = (t2 - t1);
-        System.out.println("t2 is : " + t2 + " t1 is : "+ t1 + " Diff is : " +diff);
+
 
         return diff;
     }
