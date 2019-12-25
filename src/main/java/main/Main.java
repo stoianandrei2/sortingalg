@@ -11,16 +11,17 @@ public class Main {
         SelectionSort selectionSort = new SelectionSort();
         ShellSort shellSort = new ShellSort();
         MergeSort mergeSort = new MergeSort();
-        Integer []arrayInteger = new Integer[50000/5];
+        HeapSort heapSort = new HeapSort();
+        Integer []arrayInteger = new Integer[50000/25];
         Random rand = new Random();
         for (int i = 0; i < arrayInteger.length ; i++) {
             arrayInteger[i] = rand.nextInt(100);
         }
 
 
-        Integer[][] test = new Integer[5][];
+        Integer[][] test = new Integer[6][];
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 6; i++) {
             test[i] = arrayInteger.clone();
         }
 
@@ -29,6 +30,7 @@ public class Main {
         System.out.println("Time for selection sort : " +(selectionSort.testTime(test[2])));
         System.out.println("Time for shell sort : " +(shellSort.testTime(test[3])));
         System.out.println("Time for merge sort : "+(mergeSort.testTime(test[4])));
+        System.out.println("Time for heap sort : "+(heapSort.testTime(test[5])));
 
 
 
