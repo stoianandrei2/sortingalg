@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7499968d-a3b9-4be6-9d07-c2102730b7a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/QuickSortThreeWay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/TimeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/main/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,19 +59,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.InsertionSort" />
-      <module name="sortingalg" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
       <module name="sortingalg" />
@@ -97,8 +85,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.MergeTest" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.QuickSort" />
+      <module name="sortingalg" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortThreeWay" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.QuickSortThreeWay" />
       <module name="sortingalg" />
       <extension name="coverage">
         <pattern>
@@ -113,10 +114,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.QuickSortThreeWay" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.MergeTest" />
-        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -154,46 +155,50 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577197814822" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1577306889481">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1577367798500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577306889481" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577367798500" />
     <state x="518" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577245962719">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="518" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577245962719" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1577316583212">
+    <state x="715" y="224" key="#xdebugger.evaluate" timestamp="1577392172995">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577316583212" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1577316583212">
+    <state x="715" y="224" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1577392172995" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1577393774539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577316583212" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1577316583212">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577393774539" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1577393774539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577316583212" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1577316583212">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577393774539" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1577393774539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577316583212" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1577315798977">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577393774539" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1577393774539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577315798977" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1577315798977">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577393774539" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1577393148579">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577315798977" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1577315798977">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577393148579" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1577393148578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577315798977" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1577315798977">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577393148578" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1577393148578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577315798977" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577393148578" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1577393148578">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577393148578" />
     <state x="440" y="95" key="SettingsEditor" timestamp="1577197538148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -202,10 +207,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1577198785402" />
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1577305767844">
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1577362099049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577305767844" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577362099049" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1577292617930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -228,6 +233,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/main/HeapSort.java</url>
           <line>17</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/main/QuickSort.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
